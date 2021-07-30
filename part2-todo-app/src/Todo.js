@@ -4,7 +4,7 @@ import "./Todo.css";
 function Todo({ id, task, deleteTodo }) {
   return (
     <>
-      <div class="Todo">
+      <div className="Todo">
         {task}
         <CloseIcon onClick={() => deleteTodo(id)} />
       </div>
